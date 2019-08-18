@@ -1,4 +1,4 @@
-# Docker-Spark - Run Apache Spark in Docker
+# Docker-Spark: Run Apache Spark in Docker!
 
 ![Image description](https://miro.medium.com/max/1838/1*VCxE-uUY7pYZy35ChJ1JtA.png)
 
