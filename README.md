@@ -1,4 +1,4 @@
-# docker-spark
+# Docker-Spark
 Run Apache Spark in Docker:
 
 It's very common that an Apache Spark developer needs to setup her machine as a spark development node so that she can do her code development and testing.  This requires you to have a Spark node that has been setup in the stand-alone mode.  This can speedup the code development and you can use your staging/production clusters as the deployment environments.
@@ -15,7 +15,9 @@ If you have any questions/suggestions, reach out to me at: "kjahanbakhsh AT GMAI
 Clone this repo and change to the project folder.
 
 export DOCKER_ID_USER="YOUR_DOCKER_USERNAME"
+
 docker login
+
 docker pull $DOCKER_ID_USER/spark
 
 docker run -i -t IMAGE_ID /bin/bash
@@ -49,6 +51,9 @@ docker build --tag spark .
 Push your image to Docker Hub:
 
 export DOCKER_ID_USER="YOUR_DOCKER_USERNAME"
+
 docker login
+
 docker tag spark $DOCKER_ID_USER/spark
+
 docker push $DOCKER_ID_USER/spark
