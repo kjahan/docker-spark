@@ -30,7 +30,7 @@ If you want to build the docker image yourself, just clone the project and then 
 
 # Requirements
 
-Download and install Docker Desktop for your machine depending on your machine OS:
+Download and install Docker Desktop on your machine depending on your OS:
 
 https://docs.docker.com/docker-for-mac/install/
 
