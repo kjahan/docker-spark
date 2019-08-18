@@ -1,5 +1,6 @@
-# Docker-Spark
-Run Apache Spark in Docker:
+# Docker-Spark - Run Apache Spark in Docker
+
+![Image description](https://miro.medium.com/max/1838/1*VCxE-uUY7pYZy35ChJ1JtA.png)
 
 It's very common that an Apache Spark developer needs to setup her machine as a spark development node so that she can do her code development and testing.  This requires you to have a Spark node that has been setup in the stand-alone mode.  This can speedup the code development and you can use your staging/production clusters as the deployment environments.
 
