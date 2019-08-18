@@ -44,7 +44,7 @@ Download the JDK Software:
 
 https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
 
-# Build your docker image and oush it to Docker Hub:
+# Build your docker image and push it to Docker Hub:
 
 docker build --tag spark .
 
