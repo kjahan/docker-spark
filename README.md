@@ -1,5 +1,6 @@
-# docker-spark
-Run Apache Spark in Docker:
+# Docker-Spark: Run Apache Spark in Docker!
+
+![Image description](https://miro.medium.com/max/1838/1*VCxE-uUY7pYZy35ChJ1JtA.png)
 
 We have seen a number of times that Machine Learning engineers need to setup their machine as an Apache Spark node for
 development. The local Spark setup is necessary for development/testing.  We need an Spark node that has been
@@ -34,4 +35,3 @@ export DOCKER_ID_USER="YOUR_DOCKER_USERNAME"
 docker login
 docker tag spark $DOCKER_ID_USER/spark
 docker push $DOCKER_ID_USER/spark
-
