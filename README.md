@@ -32,6 +32,9 @@ spark-submit election.py
 
 ## Pushing your image to Docker Hub:
 export DOCKER_ID_USER="YOUR_DOCKER_USERNAME"
+
 docker login
+
 docker tag spark $DOCKER_ID_USER/spark
+
 docker push $DOCKER_ID_USER/spark
